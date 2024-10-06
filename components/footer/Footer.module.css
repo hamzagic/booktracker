@@ -1,0 +1,15 @@
+.footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.footerLinks {
+  .anchor {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    column-gap: 20px;
+  }
+}
