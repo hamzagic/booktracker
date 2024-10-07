@@ -1,27 +1,49 @@
 .hero {
-  padding: 50px;
+  padding: 50px 20px;
   text-align: center;
-  background: #f4f4f4;
+  background-color: #f4f4f4;
 }
 
-.hero h1 {
-  margin: 0;
+.hero .h1 {
   font-size: 36px;
 }
 
-.features {
-  display: flex;
-  justify-content: space-around;
-  padding: 20px;
+.hero .p {
+  font-size: 20px;
+  margin: 20px 0;
 }
 
-.features .feature {
-  width: 30%;
+.ctaButtons {
+  margin: 30px 0;
+}
+
+.btn {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 0 10px;
+}
+
+.btnSecondary {
+  background-color: #555;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 0 10px;
+}
+
+.features {
+  padding: 20px;
   text-align: center;
 }
 
-.calendar {
-  display: flex;
-  justify-content: center;
-  padding: 20px;
+.features .h2 {
+  margin-bottom: 20px;
+}
+
+.featureItem {
+  margin: 15px 0;
 }

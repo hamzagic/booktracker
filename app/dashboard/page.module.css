@@ -1,0 +1,27 @@
+.calendar {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.hero {
+  padding: 50px;
+  text-align: center;
+  background: #f4f4f4;
+}
+
+.hero .h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.features .feature {
+  width: 30%;
+  text-align: center;
+}

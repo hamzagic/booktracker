@@ -1,37 +1,33 @@
-'use client';
-import styles from "./page.module.css";
-import Button from "@/components/button/Button";
-import CalendarComponent from "@/components/calendar/Calendar";
-import { useRouter } from "next/navigation";
+import styles from './page.module.css';
 
-export default function Home() {
-  const router = useRouter();
-  const handleClick = () => {
-    router.push('/add-book')
-  }
-
-  return (
-    <div className={styles.page}>
-      <main className={styles.main}>
-        <div className={styles.hero}>
-          <h1>Track Your Reading Habits Effortlessly!</h1>
-          <Button onClick={handleClick}>Add Book</Button>
-        </div>
-        <div className={styles.calendar}>
-          <CalendarComponent />
-        </div>
-        <div className={styles.features}>
-          <div className={styles.feature}>
-            <h2>Recently Read</h2>
-          </div>
-          <div className={styles.feature}>
-            <h2>Reading Goals</h2>
-          </div>
-          <div className={styles.feature}>
-            <h2>Recommended Reads</h2>
-          </div>
-        </div>
-      </main>
+const LandingPage = () => {
+  return(
+    <main>
+    <div className={styles.hero}>
+      <h1 className={styles.h1}>Track Your Reading Habits</h1>
+      <p>Join the community of book lovers and enhance your reading experience!</p>
+      <div className={styles.ctaButtons}>
+        <a href="signup.html" className={styles.btn}>Sign Up</a>
+        <a href="login.html" className={styles.btnSecondary}>Log In</a>
+      </div>
     </div>
+    <div className={styles.features}>
+      <h2>Why Choose ReadTrack?</h2>
+      <div className={styles.featureItem}>
+        <h3>Track Your Books</h3>
+        <p>Keep track of all the books you've read and want to read.</p>
+      </div>
+      <div className={styles.featureItem}>
+        <h3>Get Insights</h3>
+        <p className={styles.p}>Analyze your reading habits and set achievable goals.</p>
+      </div>
+      <div className={styles.featureItem}>
+        <h3>Personalized Recommendations</h3>
+        <p>Receive book suggestions based on your reading preferences.</p>
+      </div>
+    </div>
+  </main>
   );
 }
+
+export default LandingPage;
