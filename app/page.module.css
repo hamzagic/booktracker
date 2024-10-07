@@ -19,3 +19,9 @@
   width: 30%;
   text-align: center;
 }
+
+.calendar {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}

@@ -1,0 +1,41 @@
+.settings {
+  height: 90vh;
+  padding: 20px;
+  width: 50vw;
+  margin: 0 auto;
+}
+
+.h2 {
+  margin-top: 20px;
+}
+
+.formGroup {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.formGroup .label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.formGroup .input,
+.formGroup .select {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.btnContainer {
+  display: flex;
+  column-gap: 8px;
+}
+
+.preferencesContainer {
+  display: flex;
+  align-items: center;
+  column-gap: 6px;
+  margin-bottom: 8px;
+}
+
+
