@@ -2,7 +2,7 @@ import styles from './page.module.css';
 
 const LandingPage = () => {
   return(
-    <main>
+    <div className={styles.container}>
     <div className={styles.hero}>
       <h1 className={styles.h1}>Track Your Reading Habits</h1>
       <p>Join the community of book lovers and enhance your reading experience!</p>
@@ -26,7 +26,7 @@ const LandingPage = () => {
         <p>Receive book suggestions based on your reading preferences.</p>
       </div>
     </div>
-  </main>
+  </div>
   );
 }
 
